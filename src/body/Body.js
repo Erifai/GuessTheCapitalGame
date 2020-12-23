@@ -102,7 +102,7 @@ class Body extends Component
       rawFile.open("GET", file, false);
       rawFile.onreadystatechange = () => {
         if (rawFile.readyState === 4) {
-          if (rawFile.status === 200 || rawFile.status == 0) {
+          if (rawFile.status === 200 || rawFile.status === 0) {
             var allText = rawFile.responseText;
             var tabbb=allText.split('\n')
             if(file === this.myTxt)
@@ -144,7 +144,7 @@ class Body extends Component
             }
             {
               this.state.end && !this.state.loss &&
-             <div> <img src={win} style={{height:'50px',width:'50 px' ,float:"inline-start",marginInline:'50px' }}></img> <h2>Congrats you have won</h2> </div>
+             <div> <img src={win} alt="wining babyyyyy !!" style={{height:'50px',width:'50 px' ,float:"inline-start",marginInline:'50px' }}></img> <h2>Congrats you have won</h2> </div>
             }
             { !this.state.end && <div className='b'>
             <Button ref="A" onClick={(e)=> this.handleClick(e)} style={{backgroundColor:'crimson', color:'white', marginLeft:'5px',marginRight:'5px',marginBottom:'5px' }} >A</Button>
