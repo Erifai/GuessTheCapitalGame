@@ -58,7 +58,7 @@ class Body extends Component
                 this.audioWin.play()
                 word[i]=letter;
                 this.setState({mot_a_deviner:word,count:this.state.count+1,score:this.state.score+3});
-                if(this.state.count===this.state.mot_a_deviner.length) this.setState({end:true})
+                if(this.state.count===this.state.mot_a_deviner.length-1) this.setState({end:true})
                 break;
             }
             else{

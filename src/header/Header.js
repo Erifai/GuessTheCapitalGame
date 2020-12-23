@@ -9,7 +9,7 @@ const Header = () =>
         <img src={fblogo} alt="fb logo" className="imagefb" />
     </a>
     <a href="https://www.linkedin.com/in/mohamed-erifai-maamir-566316176">
-        <img src={linkedinlogo} className="imagein"/>
+        <img src={linkedinlogo} alt="linked in logo" className="imagein"/>
     </a>
 </div>
 
