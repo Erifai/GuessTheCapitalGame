@@ -24,7 +24,7 @@ class Body extends Component
                     this.readTextFile(this.myTxt)
                     this.readTextFile(this.myTxt1)
                     this.ind=this.getRandomInt(145)
-                    this.moot=Array(this.choices[this.ind].length-1).fill('_')  
+                    this.moot=Array(this.choices[this.ind].length).fill('_')  
         this.state =
                     {
                       indice:this.ind,
@@ -58,7 +58,7 @@ class Body extends Component
                 this.audioWin.play()
                 word[i]=letter;
                 this.setState({mot_a_deviner:word,count:this.state.count+1,score:this.state.score+3});
-                if(this.state.count===this.state.mot_a_deviner.length-1) this.setState({end:true})
+                if(this.state.count===this.state.mot_a_deviner.length) this.setState({end:true})
                 break;
             }
             else{
@@ -84,7 +84,7 @@ class Body extends Component
     }
     handleClickReset(){
         let indd =this.getRandomInt(145);
-        let moott=Array(this.choices[indd].length-1 ).fill('_') 
+        let moott=Array(this.choices[indd].length ).fill('_') 
         this.setState({
                       indice:indd,
                       mot_juste:this.choices[indd].toUpperCase().split(""),
@@ -120,7 +120,7 @@ class Body extends Component
       rawFile.send(null);}
       restartClick(){
         let indd = this.state.indice
-        let moott=Array(this.choices[indd].length-1 ).fill('_') 
+        let moott=Array(this.choices[indd].length ).fill('_') 
         this.setState({
                       mot_a_deviner:moott,                
                       end:false,                   
