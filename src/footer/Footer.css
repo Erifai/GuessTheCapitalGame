@@ -1,0 +1,10 @@
+.copyright{
+    float: right;
+    margin-top: -50px
+}
+.foot{
+    background-color: crimson;
+    text-align: center;
+    min-height: 3vh;
+    margin-top: -22px
+}

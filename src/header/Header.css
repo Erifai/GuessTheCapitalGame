@@ -1,0 +1,26 @@
+.imagein{
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin-top: -55px;
+    margin-right:50px
+ 
+}
+.imagefb{
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin-top: -55px;
+    margin-right:10px
+}
+
+.title {
+    background-color: crimson ;
+    align-items: center;
+    text-align: left;
+    min-height: 7vh;
+    margin-top: -22px
+    
+
+    
+}

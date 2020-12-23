@@ -1,0 +1,43 @@
+.z{
+    color: blanchedalmond
+}
+.country{
+    font-size: 40px
+}
+.sc{
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-right:80px;
+    margin-top: -100px;
+
+}
+.resetbutt{
+    align-content: center;
+    justify-self: center;
+}
+.e{
+    color: blanchedalmond
+}
+.essays{
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: -100px;
+}
+.mot{
+    font-size: 100px;
+    letter-spacing: 30px
+}
+.buttons{
+    background-color: darkorange;
+    text-align: center;
+    align-items: center;
+    padding: 0%;
+    min-height: 83vh;
+    margin-top: -40px;
+    
+   
+
+}
